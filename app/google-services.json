@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "252287737765",
+    "firebase_url": "https://juegoinfantil-8f8a1.firebaseio.com",
+    "project_id": "juegoinfantil-8f8a1",
+    "storage_bucket": "juegoinfantil-8f8a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252287737765:android:4f3b5296babb7483",
+        "android_client_info": {
+          "package_name": "com.example.karinaquimbiamba.juegoinfantil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252287737765-mkrhk1gi4isqlkl6rkc9fhv8n184107u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3en6kJhE333RjSrojV12dsp2NfvL8xk4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
