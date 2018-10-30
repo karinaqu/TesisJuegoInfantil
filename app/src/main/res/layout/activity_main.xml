@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -11,60 +12,75 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:src="@drawable/registro" />
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Registrar de Usuario"
-            android:textSize="24sp" />
+
+            android:textColor="#131946"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <EditText
-            android:layout_margin="15dp"
-            android:inputType="textEmailAddress"
-            android:hint="Ingresar su nombre"
             android:id="@+id/txtNombre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/ic_user"
+            android:hint="   Ingresar su nombre"
+            android:inputType="textEmailAddress" />
 
         <EditText
-            android:layout_margin="15dp"
-            android:inputType="textEmailAddress"
-            android:hint="Ingresar su correo"
             android:id="@+id/txtEmail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:hint="   Ingresar su correo"
+            android:inputType="textEmailAddress" />
 
         <EditText
-            android:layout_margin="15dp"
-            android:inputType="textPassword"
-            android:hint="Ingresar su contraseña"
             android:id="@+id/txtPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/ic_contrasena"
+            android:hint="   Ingresar su contraseña"
+            android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/txtEdad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="187dp"
+            android:layout_height="39dp"
             android:layout_margin="15dp"
-            android:hint="Ingresar la edad"
+            android:drawableLeft="@drawable/ic_edad"
+            android:hint="  Ingresar la edad"
             android:inputType="number" />
 
         <Button
-            android:layout_margin="15dp"
             android:id="@+id/btnRegistrar"
-            android:text="Resgistrar usuario"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Registrar Usuario"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
         <TextView
-            android:textAlignment="center"
-            android:text="Acceder al Login"
             android:id="@+id/txtvLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
-
+            android:text="Acceder al aquí al Login"
+            android:textAlignment="center"
+            android:textColor="#131946"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
